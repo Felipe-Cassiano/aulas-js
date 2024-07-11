@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.container p {
+    width: fit-content;
+    height: fit-content;
+}

@@ -1,0 +1,39 @@
+/* .classe1{
+    background-color: brown;
+}
+.classe2{
+    color: yellow;
+}
+.classe3{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.container button {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
