@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    justify-content: end;
+    border-radius: 15px;
+}
+
+.container button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.number {
+    height: 500px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(157, 236, 232);
+    text-align: center;
+    line-height: 500px;
+    font-size: 100px;
+    color: whitesmoke;
+}
