@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 75px;
+    border-radius: 15px;
+    width: 1300px;
+}
+
+.container div {
+    width: 500px;
+}
+
+
+/* DIVISOR */
+.divisor {
+    background-color: lightgray;
+    max-width: 2px;
+}
+/* ------------------- */
+
+/* DIV 1 */
+.genre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre img {
+    width: 300px;
+}
+
+.genre label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.genre label select {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+/* ---------------- */
+
+/* DIV 2 */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.info label input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.info button {
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.info button:hover{
+    background-color: rgb(185, 185, 185);
+    color: white;
+    border: 1px solid rgb(185, 185, 185);
+}
+/* ---------------- */
+
+/* DIV 3 */
+.resul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resul h1 {
+    font-size: 50px;
+}
+/* ------------- */
