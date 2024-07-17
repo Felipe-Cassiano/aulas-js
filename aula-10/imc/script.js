@@ -12,7 +12,8 @@ document.querySelector('[data-get-resul]').addEventListener('click', () => {
         document.querySelector('[data-imc-value]').style.color = "red"
         document.querySelector('[data-imc-value]').innerHTML = "Preencha todos os campos"
     } else{
-        let imc = Number(document.querySelector('[data-weight').value)/Number(document.querySelector('[data-height').value)
+        let imc = Number(document.querySelector('[data-weight]').value)/(Number(document.querySelector('[data-height]').value)*Number(document.querySelector('[data-height]').value))
         document.querySelector('[data-imc-value]').innerHTML = imc.toFixed(2)
+        document.querySelector('[data-imc-value]').style.color = "black"
     }
 })
